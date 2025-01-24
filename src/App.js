@@ -83,7 +83,7 @@ function App() {
   return (
     <>
       <MenuHeader />
-      <div class="container center row" id="menu-list">
+      <div className="container center row" id="menu-list">
         {menuItems.map((item) => {
           return <MenuItem item={item} />;
         })}
